@@ -1,0 +1,23 @@
+a {
+    color: #33ff00;
+    padding: 10px 70px;
+    background: rgb(255, 0, 0);
+    text-decoration: none;
+}
+header {
+    padding: 20px 70px;
+    text-align: center;
+    background: gold;
+}
+a:hover {
+    background: #33ff00;
+    color: rgb(255, 0, 0);
+    padding: 10px 70px;
+}
+
+body {
+    text-align: center;
+}
+.espaciado {
+    padding: 20px 20px;
+}

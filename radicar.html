@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <title>radicación</title>
+    <link rel="stylesheet" type="text/css" href="estilos form.css">
+    <script src="formularios.js"></script>
+    <a href="formularios.html">sumar</a>
+    <a href="formularios2.html">restar</a>
+    <a href="formularios4.html">multiplicar</a>
+    <a href="formularios3.html">dividir</a>
+    <a href="formularios5.html">potenciación</a>
+    <a href="formularios6.html">radicar</a>
+</header>
+<body>
+
+        <section class="espaciado"></section>
+    
+    
+    <form action="">
+        <input type="text" id="numero1">
+        <input type="text" id="numero2">
+        <input type="button" value="radicar" onclick="alert(radicar( 10,15 ))">
+    </form>
+    <script>
+        var radicar = function (numero1, numero2) {
+            var numero1 = parseFloat(document.getElementById("numero1").value);
+            var numero2 = parseFloat(document.getElementById("numero2").value);
+
+            var resultado = Math.pow(numero1, (1 / numero2));
+            return resultado;
+        }
+    </script>
+</body>
+</html>
